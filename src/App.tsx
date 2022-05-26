@@ -1,19 +1,17 @@
 import React from 'react';
 import './App.css';
-import {NewComponent} from "./NewComponent";
+import {Header} from "./Header";
+import {Technologies} from "./Technologies";
 
 function App() {
     return (
         <div className="App">
-            <ul>
-                <li>CSS</li>
-                <li>HTML</li>
-                <li>JS</li>
-                <li>React</li>
-            </ul>
-            <NewComponent/>
+            <Header/>
+            <Technologies/>
         </div>
-    );
+    )
 }
+
+
 
 export default App;
