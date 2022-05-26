@@ -25,11 +25,16 @@
     grid-area: n;
     background-color: blue;
 }
+
 .nav li {
     list-style-type: none;
 }
 
-.content {
+.profile {
     grid-area: c;
     background-color: red;
+}
+
+.profile-img {
+    width: 100%;
 }
